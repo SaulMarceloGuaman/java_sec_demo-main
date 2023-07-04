@@ -16,6 +16,7 @@ services:
     ports:
       - '8080:8080'
       - '50000:50000'
+
   zap:
     image: owasp/zap2docker-stable
     container_name: zap
