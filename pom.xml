@@ -19,6 +19,14 @@
     </properties>
 
     <dependencies>
+        <!--Inicio Dependencias agregadas por mi-->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.20.0</version>
+        </dependency>
+
+        <!--Fin Dependencias agregadas por mi-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
