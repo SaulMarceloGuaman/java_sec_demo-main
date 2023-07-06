@@ -26,8 +26,8 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
             <exclusions>
                 <exclusion>
-                    <groupId>latencyutils</groupId>
-                    <artifactId>latencyutils</artifactId>
+                    <groupId>org.latencyutils</groupId>
+                    <artifactId>LatencyUtils</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
